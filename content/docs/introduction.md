@@ -37,3 +37,5 @@ Transcendence means, that the game gives insight into real world issues:
 * Industrial Revolution
 * State building
 * Trade economy
+
+...
