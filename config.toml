@@ -1,4 +1,4 @@
-baseURL = "http://localhost"
+baseURL = "https://github.com/Nihamawassa/heartland/"
 title = "Industrial Revolution Documentation"
 theme = "hugo-geekdoc"
 
