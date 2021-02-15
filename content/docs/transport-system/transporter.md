@@ -1,7 +1,9 @@
 ---
 title: Transporter
-date: 2021-02-13T17:29:05+01:00
-draft: true
+weight: 1
+# geekdocFlatSection: false
+# geekdocToc: 6
+# geekdocHidden: false
 ---
 
 The Transporter is part of the [Transport System](articles/transport-system). It is located at its [Transport Hub](articles/transport-system/transport-hub) waiting for Cargo. After loading [Cargo](articles/transport-system/cargo), the Transporter transports the Cargo to its target Transport Hub.

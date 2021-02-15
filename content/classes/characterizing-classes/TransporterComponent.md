@@ -1,7 +1,9 @@
 ---
 title: "TransporterComponent"
-date: 2021-02-14T23:14:30+01:00
-draft: true
+weight: 1
+# geekdocFlatSection: false
+# geekdocToc: 6
+# geekdocHidden: false
 ---
 
 The TransporterComponent class.
