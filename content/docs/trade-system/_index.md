@@ -3,7 +3,7 @@ title: Trade System
 weight: 2
 geekdocCollapseSection: true
 # geekdocFlatSection: false
-# geekdocToc: 6
+geekdocToc: 6
 # geekdocHidden: false
 ---
 
