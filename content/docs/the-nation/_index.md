@@ -11,9 +11,9 @@ The nation is hierarchically organised. At the top is the nation. On the next lo
 
 {{< mermaid class="text-center">}}
 graph TD
-    Nation --> Province A
-    Nation --> Province B
-    Nation --> Province C
+    N[Nation] --> A[Province A]
+    N --> B[Province B]
+    N --> C[Province C]
 {{< /mermaid >}}
 
 ## Implementation Note
