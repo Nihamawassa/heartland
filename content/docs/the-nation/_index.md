@@ -11,9 +11,15 @@ The nation is hierarchically organised. At the top is the nation. On the next lo
 
 {{< mermaid class="text-center">}}
 graph TD
-    N[Nation] --> A[Province A]
-    N --> B[Province B]
-    N --> C[Province C]
+    N[Nation] --- A["Province A (Market Town/Settlement)"]
+    N --- B["Province B (Market Town/Settlement)"]
+    N --- C["Province C (Market Town/Settlement)"]
+    A --- P1["Population (Farmers, Workers, Aristocrats, ...)"]
+    A --- I1["Industries (Mine, Factory, ...)"]
+    B --- P2[Population]
+    B --- I2[Industries]
+    C --- P3[Population]
+    C --- I3[Industries]
 {{< /mermaid >}}
 
 ## Implementation Note
