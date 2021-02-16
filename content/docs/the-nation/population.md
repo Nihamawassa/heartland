@@ -9,5 +9,6 @@ weight: 1
 Population content
 
 ## Possible Features of Future Iterations
+
 * The population acts as autonomous agents (farmers, artisans, aristocrats, miners, factory workers, soldiers, traders...)
 * These agents try to maximize their wealth (maybe try different objective functions...)

@@ -13,5 +13,6 @@ The trade system has the components:
 {{< toc-tree >}}
 
 ## Possible Features of Future Iterations
+
 * Demand calculation by influence maps... (simulating the spread of information)
 * Broaden the trade system, not only cities are trade nodes…

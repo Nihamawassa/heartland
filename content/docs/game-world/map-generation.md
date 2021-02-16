@@ -9,6 +9,7 @@ weight: 1
 Detailed information about the map generation.
 
 ## River Generation
+
 * Rivers flow in straight lines from tile to tile. They do not flow diagonally to another tile.
 * Generation:
   * For every tile find the neighboring tile with the steepest decline between both tiles. This sets the flow direction of the tile.
@@ -17,6 +18,7 @@ Detailed information about the map generation.
   * Set river tiles to all tile with a flow amount above a set threshold value.
 
 ## Farmland and Pasture Generation
+
 * The total of the farmland amount and pasture amount of a tile has a max amount of 100 (percent)
 * Farmland is always calculated first, pasture is calculated for the remaining total
 * Both values are influenced by moisture, temperature, and elevation (more mountainous regions have less space to do agriculture and herding)
