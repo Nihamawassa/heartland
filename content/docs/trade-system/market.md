@@ -38,3 +38,9 @@ Third: update of prices:
 
 1. Sellers adjust their ask prices. If they were able to sell all their surplus, the ask prices increase. Otherwise, aks prices decrease.
 2. Buyers adjust their bid price (good valuation). If they were able to fulfill their demand, they will decrease their bid prices. Otherwise, bid prices increase.
+
+{{< mermaid class="text-center">}}
+graph LR
+    T[Provincial Trader] -->|offers goods| M[Provincial Market - lists of bids and goods]
+    T -->|bids on goods| M
+{{< /mermaid >}}
