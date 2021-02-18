@@ -44,4 +44,8 @@ Transcendence means, that the game gives insight into real world issues:
 * State building
 * Trade economy
 
-...
+### Decisions
+
+A good game is a sequence of interesting and meaningful decisions.
+
+[Population](docs/the-nation/population/) groups have a value for workforce share and education. Workforce share ist the percentage value of a population who actively work in their population's profession. For example children and the elderly may not take part in bread-earning activities. The total education level of all population groups influences the nation's scientific progress. The player influences by political decisions, if children will work in factories or will go to school. Or in other words: if the nation will be an industrial powerhouse or a scientific leader.

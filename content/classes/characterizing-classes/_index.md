@@ -1,7 +1,7 @@
 ---
 title: "Characterizing Classes"
 weight: 1
-geekdocCollapseSection: false
+geekdocCollapseSection: true
 # geekdocFlatSection: false
 # geekdocToc: 6
 # geekdocHidden: false
