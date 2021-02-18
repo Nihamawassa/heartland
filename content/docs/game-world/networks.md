@@ -10,5 +10,5 @@ Key features of the game world are mainly by using graphs. Four kind of network 
 
 * The **body of water network** - ocean, rivers, estuaries
 * The [**trade network**](docs/trade-network/): a network of markets
-* The [**transport networks**](docs/transport-network/): a network of transport nodes and connections from tile to tile
+* The [**transport networks**](docs/transport-network/): a network of transport nodes and links from tile to tile
 * The [**construction cost graphs**](docs/the-nation/infrastructure-construction-cost/): the costs to build infrastructure from tile to tile

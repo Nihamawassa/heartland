@@ -13,7 +13,7 @@ At startup the game generates a Transport Network. This network includes roads, 
 ## Nodes and Edges
 
 * **Nodes**: tile location and type of transport (e.g. road crossing, rail crossing, train station, port)
-* **Edges**: connections between to adjacent tiles. The nodes of the edge define its type. E.g. if both nodes are of type road crossing, the edge is a road. The cost of the edge is the time (in hours) a [transporter](focs/transport-system/transporter/) needs to move from node to node.
+* **Edges**: links between to adjacent tiles. The nodes of the edge define its type. E.g. if both nodes are of type road crossing, the edge is a road. The cost of the edge is the time (in hours) a [transporter](focs/transport-system/transporter/) needs to move from node to node.
 
 ## Use and Notes
 

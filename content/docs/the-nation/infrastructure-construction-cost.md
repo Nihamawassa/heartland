@@ -11,7 +11,7 @@ Cost for constructing infrastructure is implemented as a [network](docs/gameworl
 ## Nodes and Edges
 
 * **Nodes**: tile locations
-* **Edges**: connections between two adjacent tiles. The cost of the edge is the construction cost in money to connect two tiles.
+* **Edges**: links between two adjacent tiles. The cost of the edge is the construction cost in money to connect two tiles.
 
 ## Use and Notes
 

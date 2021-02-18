@@ -28,7 +28,7 @@ A port is located on an adjacent tile of a settlement, if
 * There is an estuary
 * There is a sea tile
 
-The placement of a port creates a road connection from the settlement to the port. There may also be the need for a ‘loading’ connection from the road to the sea lane.
+The placement of a port creates a road link from the settlement to the port. There may also be the need for a ‘loading’ link from the road to the sea lane.
 
 The placement of a port generates sea lanes from this port to all other already existing and reach-able ports. There is no need to do this from the other ports to the new port as well, because sea lanes are like roads.
 

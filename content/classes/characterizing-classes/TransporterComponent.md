@@ -12,5 +12,5 @@ The TransporterComponent class.
 
 * Transporter Type (train, ox-wagon, barge, schooner, clipper)
 * List of Cargos
-* Transport Connection Type (road, rail, sea lane, waterway)
+* Transport Link Type (road, rail, sea lane, waterway)
 * Transport Path (path for the transport network)
