@@ -32,6 +32,15 @@ foodConsumption(population, time): food is consumed by the population. Food is m
 
 clothesConsumption(population, time): clothes are consumed by the population.
 
+## Implementation
+
+The actor "settlement" has the components:
+
+* [Settlement](classes/characterizing-classes/Settlement/) - characterizing class
+* [Selectable](classes/general-classes/Selectable/)
+* [Market](classes/general-classes/Market/)
+* [TradeNode](classes/general-classes/TradeNode/)
+
 ## Future Implementation
 
 All settlements have a core, which is represented on the map as a city center tile. When the settlement grows in population, additional city tiles get added to the settlement:

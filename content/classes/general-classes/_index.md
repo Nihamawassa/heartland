@@ -1,9 +1,10 @@
 ---
-title: "MarketComponent"
+title: "General Classes"
 weight: 1
+geekdocCollapseSection: true
 # geekdocFlatSection: false
 # geekdocToc: 6
 # geekdocHidden: false
 ---
 
-The MarketComponent class.
+Explanation of general classes.
