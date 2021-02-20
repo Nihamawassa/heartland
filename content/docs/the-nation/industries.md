@@ -18,6 +18,16 @@ Industries belong to a [province (settlement)](docs/the-nation/settlements/).
 * **Machine Parts Factories:** Source of machine parts. Uses steel and labour (workers) as inputs. Its output efficiency is increased by scientific advance. The player can build machine parts factories.
 * **Weapon Factories:** Source of weapons. Uses steel and labour (workers) as inputs. Its output efficiency is increased by scientific advance. The player can build weapon factories.
 
+## Implementation
+
+The actor "industry" has the components:
+
+* [Industry](classes/characterizing-classes/Industry/) - characterizing class
+* [Selectable](classes/general-classes/Selectable/)
+* [Stocks](classes/general-classes/Stocks/)
+* [Trade](classes/general-classes/Trade/)
+* [Production](classes/general-classes/Production/)
+
 ## Construction of Industries
 
 The player builds new structures on the map to increase production. He earns money by selling the produced goods. Buildings cost steel and money to pay for workers. Steel has to be provided by the player from the [national stock](docs/the-nation/national-stocks/). The workers have to be supplied by cities and paid by the player. The player starts the construction by placing a building on a tile. He has to pay the money up front. If there is enough steel in one of the player’s stockpiles, a merchant spawns there and transports the steel to the construction site. The construction process starts after all construction costs are paid and the needed steel is delivered. The building starts working after the construction time has passed.

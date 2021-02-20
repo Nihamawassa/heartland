@@ -1,9 +1,9 @@
 ---
-title: "TransportHubComponent"
+title: "ConstructionSite"
 weight: 1
 # geekdocFlatSection: false
 # geekdocToc: 6
 # geekdocHidden: false
 ---
 
-The TransportHubComponent class.
+The ConstructionSite component class.

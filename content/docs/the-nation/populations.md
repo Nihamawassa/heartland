@@ -1,5 +1,5 @@
 ---
-title: "Population"
+title: "Populations"
 weight: 1
 # geekdocFlatSection: false
 # geekdocToc: 6
@@ -37,6 +37,14 @@ Workers provide their labour to surrounding factories and mines of a settlement.
 ### Soldiers
 
 Man the local baracks.
+
+## Implementation
+
+The actor "industry" has the components:
+
+* [Population](classes/characterizing-classes/Population/) - characterizing class
+* [Stocks](classes/general-classes/Stocks/)
+* [Trade](classes/general-classes/Trade/)
 
 ## Possible Features of Future Iterations
 
