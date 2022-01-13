@@ -6,7 +6,7 @@ weight: 1
 # geekdocHidden: false
 ---
 
-The Transporter is part of the [Transport System](articles/transport-system). It is located at its [Transport Hub](articles/transport-system/transport-hub) waiting for Cargo. After loading [Cargo](articles/transport-system/cargo), the Transporter transports the Cargo to its target Transport Hub.
+The Transporter is part of the [Transport System](docs/transport-system). It is located at its [Transport Hub](docs/transport-system/transport-hub) waiting for Cargo. After loading [Cargo](docs/transport-system/cargo), the Transporter transports the Cargo to its target Transport Hub.
 
 ## Components
 

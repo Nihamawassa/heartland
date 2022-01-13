@@ -13,5 +13,5 @@ The Main Panel is an UI element of the Map Scene. It is always visible. It has t
   * Button to slow time
   * Button to pause time
   * Button to accelerate time
-* Button to open the Ledger
-* Button to open the Game Menu
+* Button to open the Ledger panel
+* Button to open the Game Menu panel

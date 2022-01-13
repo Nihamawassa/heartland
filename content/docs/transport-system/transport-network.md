@@ -6,7 +6,7 @@ weight: 1
 # geekdocHidden: false
 ---
 
-The Transport Network is part of the [Transport System](articles/transport-system).
+The Transport Network is part of the [Transport System](docs/transport-system/).
 
 At startup the game generates a Transport Network. This network includes roads, sea lanes, and waterways.
 
