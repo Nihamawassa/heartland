@@ -20,6 +20,13 @@ A Transport Hub is located on a tile.
 
 The Transport Hub spawns a [Transporter](articles/transport-system/transporter) if there is a [Cargo](articles/transport-system/cargo) at the Transport Hub.
 
+## Implementation
+
+The actor "transport hub" has the components:
+
+* [Transport Hub](classes/characterizing-classes/TransportHub/) - characterizing class
+* [Selectable](classes/general-classes/Selectable/)
+
 ## Ports
 
 A port is located on an adjacent tile of a settlement, if

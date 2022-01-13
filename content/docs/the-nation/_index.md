@@ -22,6 +22,12 @@ graph TD
     C --- I3[Industries]
 {{< /mermaid >}}
 
-## Implementation Note
+## Implementation
+
+The actor "nation" has the components:
+
+* [Nation](classes/characterizing-classes/Nation/) - the characterizing class
+* [Stocks](classes/general-classes/Stocks/) - the [national stocks](docs/the-nation/national-stocks/)
+* [Market](classes/general-classes/Market/)
 
 During game initialisation, setup starts at the top level of the national hierarchy and goes through all levels from top to bottom. Lower levels register themselves with their parent level.

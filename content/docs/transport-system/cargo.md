@@ -10,7 +10,8 @@ As a part of the [Transport System](articles/transport-system), Cargo is tranpor
 
 It has the fields:
 
-* TransportHub recipient
+* TradeComponent recipient
+* [Transport Hub](articles/transport-system/transport-hub) targetTransportHub
 * path to the recipient (trade path, transport path, location path)
 * goods type
 * amount
