@@ -2,8 +2,8 @@
 <head>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=description content="Trade Network">
-<title>Trade Network | Industrial Revolution Documentation</title>
+<meta name=description content="Game Menu Panel">
+<title>Game Menu Panel | Industrial Revolution Documentation</title>
 <link rel=icon href=/heartland/favicon/favicon-32x32.png type=image/x-icon>
 <link rel=preload as=font href=/heartland/fonts/Metropolis.woff2 type=font/woff2 crossorigin=anonymous>
 <link rel=preload as=font href=/heartland/fonts/LiberationSans.woff2 type=font/woff2 crossorigin=anonymous>
@@ -342,7 +342,7 @@ Settlements
 </ul>
 </li>
 <li>
-<input type=checkbox id=navtree-3cb1688f class=gdoc-nav__toggle checked>
+<input type=checkbox id=navtree-3cb1688f class=gdoc-nav__toggle>
 <label for=navtree-3cb1688f class="flex justify-between">
 <span class=flex>
 <a href=/heartland/docs/trade-system/ class=gdoc-nav__entry>
@@ -367,7 +367,7 @@ Trade Manager
 </li>
 <li>
 <span class=flex>
-<a href=/heartland/docs/trade-system/trade-network/ class="gdoc-nav__entry is-active">
+<a href=/heartland/docs/trade-system/trade-network/ class=gdoc-nav__entry>
 Trade Network
 </a>
 </span>
@@ -422,7 +422,7 @@ Transporter
 </ul>
 </li>
 <li>
-<input type=checkbox id=navtree-ad47774a class=gdoc-nav__toggle>
+<input type=checkbox id=navtree-ad47774a class=gdoc-nav__toggle checked>
 <label for=navtree-ad47774a class="flex justify-between">
 <span class=flex>
 <a href=/heartland/docs/user-interface/ class=gdoc-nav__entry>
@@ -433,7 +433,7 @@ User Interface
 <ul class=gdoc-nav__list>
 <li>
 <span class=flex>
-<a href=/heartland/docs/user-interface/game-menu-panel/ class=gdoc-nav__entry>
+<a href=/heartland/docs/user-interface/game-menu-panel/ class="gdoc-nav__entry is-active">
 Game Menu Panel
 </a>
 </span>
@@ -480,38 +480,20 @@ Unsorted Content
 <div class="gdoc-page__header flex flex-wrap justify-between hidden-mobile" itemscope itemtype=http://data-vocabulary.org/Breadcrumb>
 <span>
 <span class=breadcrumb><svg class="icon path"><use xlink:href="#path"/></svg>
-<a href=/heartland/>Industrial Revolution Documentation</a> / <a href=/heartland/docs/>Docs</a> / <a href=/heartland/docs/trade-system/>Trade System</a> / Trade Network
+<a href=/heartland/>Industrial Revolution Documentation</a> / <a href=/heartland/docs/>Docs</a> / <a href=/heartland/docs/user-interface/>User Interface</a> / Game Menu Panel
 </span>
 </span>
 <span>
 </span>
 </div>
 <article class=gdoc-markdown>
-<h1>Trade Network</h1>
-<p>The trade network is a “minimum spanning tree” of all markets on the map. The Dijkstra-algorithm is used for pathfinding, since it is not possible to use an heuristic as in the A*-algorithm (is that true?).</p>
-<div class=gdoc-page__anchorwrap>
-<h2 id=nodes-and-edges>
-Nodes and Edges
-<a data-clipboard-text=https://nihamawassa.github.io/heartland/docs/trade-system/trade-network/#nodes-and-edges class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Nodes and Edges" href=#nodes-and-edges><svg class="icon link"><use xlink:href="#link"/></svg>
-</a>
-</h2>
-</div>
+<h1>Game Menu Panel</h1>
+<p>The Game Menu panel shows the basic game control functions like exiting the game. It is an UI element of the Map Scene. It is a modal UI element and by default it is not visible. The panel has the following functions:</p>
 <ul>
-<li><strong>Nodes</strong>: markets as in tile location of a <a href=/heartland/docs/trade-system/market>market</a>
-</li>
-<li><strong>Edges</strong>: transport cost in money of transporting one ton of goods between two markets</li>
-</ul>
-<div class=gdoc-page__anchorwrap>
-<h2 id=usage-and-notes>
-Usage and Notes
-<a data-clipboard-text=https://nihamawassa.github.io/heartland/docs/trade-system/trade-network/#usage-and-notes class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Usage and Notes" href=#usage-and-notes><svg class="icon link"><use xlink:href="#link"/></svg>
-</a>
-</h2>
-</div>
-<ul>
-<li>To calculate the total price of a good offered on another market</li>
-<li>This network should be regularly updated to get it as close as possible to a <a href=https://en.wikipedia.org/wiki/Complete_graph>complete graph</a>
-.</li>
+<li>Button to close the Game Menu panel (&ldquo;back to game&rdquo;)</li>
+<li>Button to save the game</li>
+<li>Button to go to the Main Menu scene</li>
+<li>Button to exit the game</li>
 </ul>
 </article>
 <div class="gdoc-page__footer flex flex-wrap justify-between">
